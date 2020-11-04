@@ -21,13 +21,6 @@ public class HelloWorldTests {
 	}
 
 	@Test
-	public void shouldPrintTimeToConsole() {
-		HelloWorld.main(new String[] { });
-
-		assertThat(output(), containsString("The current local time is"));
-	}
-
-	@Test
 	public void shouldPrintHelloWorldToConsole() {
 		HelloWorld.main(new String[] { });
 
